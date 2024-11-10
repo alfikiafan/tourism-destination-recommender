@@ -613,10 +613,8 @@ Evaluasi merupakan langkah untuk menilai sejauh mana performa sistem rekomendasi
 **a. Precision**  
 Precision mengukur proporsi rekomendasi yang relevan di antara 10 rekomendasi teratas yang diberikan kepada pengguna. Metrik ini memberikan indikasi seberapa akurat rekomendasi yang dihasilkan oleh sistem.
 
-**Formula:**
-$$
-\text{Precision} = \frac{\text{TP}}{TP+FP}
-$$
+**Formula:**  
+$$\text{Precision} = \frac{\text{TP}}{TP+FP}$$  
 
 Di mana:
 - $TP$ (True Positive) adalah jumlah rekomendasi yang relevan di antara 10 rekomendasi teratas,
@@ -655,10 +653,8 @@ Dalam implementasi kode, alur untuk menentukan jumlah rekomendasi yang relevan (
 
 RMSE mengukur rata-rata perbedaan antara nilai prediksi model dan nilai aktual yang diamati, dengan memberikan bobot lebih pada kesalahan yang lebih besar.
 
-**Formula:**
-$$
-RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
-$$
+**Formula:**  
+$$RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}$$  
 Di mana:
 - $y_i$ adalah nilai aktual,
 - $\hat{y}_i$ adalah nilai prediksi,
@@ -673,10 +669,8 @@ Di mana:
 
 MAE mengukur rata-rata kesalahan absolut antara nilai prediksi model dan nilai aktual yang diamati.
 
-**Formula:**
-$$
-MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
-$$
+**Formula:**  
+$$MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$$  
 
 Di mana:
 - $y_i$ adalah nilai aktual,
