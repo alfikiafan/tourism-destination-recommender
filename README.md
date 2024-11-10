@@ -4,6 +4,8 @@
 
 Dengan meningkatnya jumlah wisatawan, sistem rekomendasi ini diharapkan dapat meningkatkan pengalaman pengguna dalam menemukan destinasi wisata yang menarik dan sesuai dengan keinginan mereka, sekaligus mendukung pengembangan pariwisata di berbagai daerah di Indonesia.
 
+Untuk laporan lengkap, silakan baca dokumen [Laporan Proyek](report.md).
+
 ## Daftar Isi
 
 - [Fitur](#fitur)
