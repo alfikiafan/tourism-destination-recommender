@@ -235,7 +235,7 @@ Dari analisis sebelumnya menggunakan `data_tourism_with_id.info()`, diketahui ba
 
 **b. Penanganan Missing Values**
 
-Kedua kolom ()`Time_Minutes` dan `Unnamed: 11` dihapus karena kedua kolom memang tidak diperlukan untuk model Content-based Filtering dan Collaborative Filtering dalam konteks rekomendasi destinasi wisata.
+Kedua kolom `Time_Minutes` dan `Unnamed: 11` dihapus karena kedua kolom memang tidak diperlukan untuk model Content-based Filtering dan Collaborative Filtering dalam konteks rekomendasi destinasi wisata.
 
 **c. Menghapus Kolom yang Tidak Perlu**
 
@@ -579,7 +579,6 @@ Grafik menunjukkan penurunan nilai RMSE pada data train dan validation seiring b
 
 Sebagai contoh, kami melakukan rekomendasi untuk seorang pengguna dengan `User_Id` terpilih.
 
-13/13 ━━━━━━━━━━━━━━━━━━━━ 0s 11ms/step  
 Rekomendasi berdasarkan Collaborative Filtering untuk User ID 27:
 
 | No. | Place Name                    | Category      | Rating | Description                                                                             |
